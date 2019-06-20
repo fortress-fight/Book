@@ -1,6 +1,6 @@
 module.exports = {
     // 网站的标题，同时会出现在页面的左上角导航旁边
-    title: "VuePress Template",
+    title: "重构 改善既有代码的设计2",
     /**
      * 根路径，在文件中引用静态资源的时候使用 `$witchBase('/foo.png')`
      * <img :src="$withBase('/foo.png')" alt="foo">
@@ -8,7 +8,8 @@ module.exports = {
      */
     base: "/",
     // 网站的描述
-    description: "Just playing around",
+    description:
+        "重构，一言以蔽之，就是在不改变外部行为的前提下，有条不紊地改善代码",
 
     /**
      * 被注入页面 HTML <head> 额外的标签。
