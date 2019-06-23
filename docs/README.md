@@ -40,9 +40,10 @@ pageClass: c-index_page
 
 home: true
 heroImage: /face.jpg
-# actionText: 起步 →
-# actionLink: /Introduction/
+actionText: 目录 →
+actionLink: /
 footer: Copyright © 2018-present
 ---
 
 <sitebg bg="/face.jpg"/>
+<popbox popbox_switch=".home .hero .action-button" :links="[{text: '重构 改善既有代码的设计', link: '/Refactoring/'}]"> </popbox>

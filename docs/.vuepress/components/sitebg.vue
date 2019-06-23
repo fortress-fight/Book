@@ -5,6 +5,7 @@
 </template>
 <script lang="ts">
 import Vue from "vue";
+import $ from "jquery";
 export default Vue.extend({
     data() {
         return {
@@ -44,6 +45,12 @@ export default Vue.extend({
     img {
         display: none;
     }
+    .action {
+        width: 100%;
+    }
+    .action-button {
+        padding: 0.3rem 1.6rem;
+    }
     .description {
         margin: 0;
         width: 100%;
@@ -69,6 +76,9 @@ export default Vue.extend({
     &-img {
         display: none;
     }
+}
+.c-index_page .navbar {
+    background: transparent;
 }
 </style>
 
