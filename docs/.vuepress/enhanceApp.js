@@ -1,3 +1,4 @@
+import jquery from "jquery";
 export default ({
     Vue, // 当前 VuePress 应用所使用的 Vue 版本
     options, // 根 Vue 实例的选项
@@ -6,4 +7,5 @@ export default ({
 }) => {
     // ...使用应用程序级别的增强功能
     console.log("应用增强");
+    window.$ = jquery;
 };

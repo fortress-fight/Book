@@ -21,6 +21,7 @@
         "husky": "^2.4.1",
         "node-sass": "^4.12.0",
         "sass-loader": "^7.1.0",
+        "url-loader": "^2.0.0",
         "vuepress": "^1.0.2"
     },
     "husky": {
@@ -35,6 +36,7 @@
         }
     },
     "dependencies": {
-        "git-branch-is": "^2.1.0"
+        "git-branch-is": "^2.1.0",
+        "jquery": "^3.4.1"
     }
 }
