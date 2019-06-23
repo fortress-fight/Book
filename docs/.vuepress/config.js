@@ -1,6 +1,6 @@
-const nav = require("./_configs/nav");
-const sidebar = require("./_configs/sidebar");
-const github = require("./_configs/github");
+const nav = require("./_config/nav");
+const sidebar = require("./_config/sidebar");
+const github = require("./_config/github");
 
 const themeConfig = Object.assign(
     {
@@ -36,7 +36,8 @@ const themeConfig = Object.assign(
     github
 );
 
-module.exports = {
+module.exports = ctx => ({
+    extraWatchFiles: [".vuepress/_config/*.*"],
     // 网站的标题，同时会出现在页面的左上角导航旁边
     title: "重构 改善既有代码的设计2",
     /**
@@ -67,6 +68,7 @@ module.exports = {
             }
         }
     },
+    plugins: [["@vuepress/back-to-top", true]],
     markdown: {
         // 代码是否带有行数的标识
         lineNumbers: true,
@@ -78,4 +80,4 @@ module.exports = {
         }
     },
     themeConfig
-};
+});

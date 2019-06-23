@@ -13,6 +13,7 @@ module.exports = {
                     ]
                 }
              */
+
         { text: "Home", link: "/" },
         /**
          * 如果 link 是一个目录，将会默认指向该目录下的 README.md

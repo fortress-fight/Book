@@ -9,7 +9,7 @@ module.exports = {
          * 设置为 false 表示禁止
          */
     sidebar: [
-        "/",
+        // "/",
         /**
          * 你可以省略 .md 扩展名，以 / 结尾的路径被推断为 *\/README.md 。
          * 该链接的文本是自动推断的（从页面的第一个标题或 YAML front matter 中的显式标题）。
@@ -21,7 +21,7 @@ module.exports = {
          * 侧边栏可以分组，形式如下
          */
         {
-            title: "简介",
+            title: "目录",
             collapsable: false,
             children: [
                 "/Introduction/",
