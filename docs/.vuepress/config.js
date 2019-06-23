@@ -36,7 +36,8 @@ const themeConfig = Object.assign(
     github
 );
 
-module.exports = ctx => ({
+module.exports = {
+    // 指定额外的需要被监听的文件。
     extraWatchFiles: [".vuepress/_config/*.*"],
     // 网站的标题，同时会出现在页面的左上角导航旁边
     title: "重构 改善既有代码的设计2",
@@ -80,4 +81,4 @@ module.exports = ctx => ({
         }
     },
     themeConfig
-});
+};
