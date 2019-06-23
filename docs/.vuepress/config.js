@@ -40,7 +40,7 @@ module.exports = {
     // 指定额外的需要被监听的文件。
     extraWatchFiles: [".vuepress/_config/*.*"],
     // 网站的标题，同时会出现在页面的左上角导航旁边
-    title: "重构 改善既有代码的设计2",
+    title: "读书笔记",
     /**
      * 根路径，在文件中引用静态资源的时候使用 `$witchBase('/foo.png')`
      * <img :src="$withBase('/foo.png')" alt="foo">
@@ -48,8 +48,7 @@ module.exports = {
      */
     base: "/vuepress_template/",
     // 网站的描述
-    description:
-        "重构，一言以蔽之，就是在不改变外部行为的前提下，有条不紊地改善代码",
+    description: "好好学习，天天向上",
 
     /**
      * 被注入页面 HTML <head> 额外的标签。

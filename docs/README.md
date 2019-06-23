@@ -13,7 +13,7 @@ lang: zh-CN
 # meta
 meta:
     - name: description
-      content: 重构，一言以蔽之，就是在不改变外部行为的前提下，有条不紊地改善代码
+      content: 记录学习中的点点滴滴
     - name: keywords
       content: 笔记，重构
 
@@ -36,11 +36,13 @@ pageClass: c-index_page
 
 # 自定义页面布局
 # 下面将会使用 .vuepress/components/SpecialLayout.vue。为当前页面渲染
-# layout: SpecialLayout
+# layout: Home
 
 home: true
 heroImage: /face.jpg
-actionText: 起步 →
-actionLink: /Introduction/
+# actionText: 起步 →
+# actionLink: /Introduction/
 footer: Copyright © 2018-present
 ---
+
+<sitebg bg="/face.jpg"/>
