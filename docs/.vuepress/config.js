@@ -46,7 +46,7 @@ module.exports = {
      * <img :src="$withBase('/foo.png')" alt="foo">
      * 会自动拼接到 config.js 文件中所有静态资源 URL 中
      */
-    base: "/vuepress_template/",
+    base: "/Book/",
     // 网站的描述
     description: "好好学习，天天向上",
 

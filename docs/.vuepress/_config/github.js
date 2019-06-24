@@ -2,7 +2,7 @@ module.exports = {
     /**
      * 假定 GitHub。也可以是一个完整的 GitLab URL。
      */
-    repo: "https://github.com/fortress-fight/vuepress_template",
+    repo: "https://github.com/fortress-fight/Book",
     // 自定义项目仓库链接文字
     // 默认根据 `themeConfig.repo` 中的 URL 来自动匹配是 "GitHub"/"GitLab"/"Bitbucket" 中的哪个，如果不设置时是 "Source"。
     repoLabel: "贡献代码！",
