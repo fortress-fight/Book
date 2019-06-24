@@ -5,7 +5,7 @@
 # navbar: false
 
 # 当前页面标签，默认为当前页面的 H1
-title: "重构 改善既有代码的设计"
+title: "重构，第一个示例"
 
 # 语言
 lang: zh-CN
@@ -36,7 +36,7 @@ pageClass: c-book_index_page
 
 # 自定义页面布局
 # 下面将会使用 .vuepress/components/SpecialLayout.vue。为当前页面渲染
-# layout: Layout
+# layout: Home
 
 # home: true
 heroImage: /refactor.jpg

@@ -1,5 +1,10 @@
 <template>
-    <div id="site_bg" class="site_bg" :style="c_style">
+    <div
+        id="site_bg"
+        class="site_bg"
+        :class="{site_image: showImage, book_index_page:isBookFace}"
+        :style="c_style"
+    >
         <img class="site_bg-img" :src="bg_link" alt srcset>
     </div>
 </template>
@@ -13,13 +18,15 @@ export default Vue.extend({
         };
     },
     props: {
-        bg: String
+        bg: String,
+        showImage: Boolean,
+        isBookFace: Boolean
     },
     computed: {
         c_style() {
-            return {
-                backgroundImage: `url(${this.bg_link})`
-            };
+            return this.showImage
+                ? {}
+                : { backgroundImage: `url(${this.bg_link})` };
         }
     },
     mounted() {
@@ -73,8 +80,21 @@ export default Vue.extend({
     height: 100%;
     background-position: center;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     &-img {
         display: none;
+    }
+    .site_image &-img {
+        display: block;
+        width: 30vw;
+    }
+    .book_index_page &-img {
+        margin-left: -46.4vw;
+
+        max-width: 100%;
+        min-width: 370px;
     }
 }
 .c-index_page .navbar {
