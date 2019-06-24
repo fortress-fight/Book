@@ -48,7 +48,11 @@ export default Vue.extend({
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: calc(50% - 50vw);
+
+    width: 100%;
+    margin: 0;
+    left: auto;
+    right: auto;
     img {
         display: none;
     }
