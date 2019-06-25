@@ -5,7 +5,7 @@
 # navbar: false
 
 # 当前页面标签，默认为当前页面的 H1
-title: "重构 改善既有代码的设计"
+title: "重构 改善既有代码的设计 2"
 
 # 语言
 lang: zh-CN
@@ -13,7 +13,7 @@ lang: zh-CN
 # meta
 meta:
     - name: description
-      content: "重构 改善既有代码的设计"
+      content: "重构 改善既有代码的设计 2"
     - name: keywords
       content: 笔记，重构
 
@@ -44,3 +44,15 @@ actionText: 目录 →
 actionLink: /
 footer: Copyright © 2018-present
 ---
+
+<div style="text-align: center; padding-top: 2.6rem" >
+<img src=../.vuepress/dist/refactor.jpg style="width:500px; max-width: 40%; ">
+</div>
+
+---
+
+::: tip
+**重构 改善既有代码的设计 2**
+
+是我理解了，如何写出更加利于人类理解，以及改进，扩展的代码
+:::

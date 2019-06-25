@@ -32,7 +32,7 @@ meta:
 # editLink: false
 
 # 自定义页面的 Class
-pageClass: c-book_index_page
+pageClass: c-book_post_page
 
 # 自定义页面布局
 # 下面将会使用 .vuepress/components/SpecialLayout.vue。为当前页面渲染
@@ -44,3 +44,5 @@ actionText: 目录 →
 actionLink: /
 footer: Copyright © 2018-present
 ---
+
+# 前言
