@@ -46,7 +46,7 @@ footer: Copyright © 2018-present
 ---
 
 <div style="text-align: center; padding-top: 2.6rem" >
-<img src=../.vuepress/dist/refactor.jpg style="width:500px; max-width: 40%; ">
+<img src=../.vuepress/public/refactor.jpg style="width:500px; max-width: 40%; ">
 </div>
 
 ---
