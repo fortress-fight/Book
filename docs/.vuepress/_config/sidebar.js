@@ -18,6 +18,15 @@ module.exports = {
                 collapsable: true,
                 children: ["Capture_one/Capture_one.html"]
             }
+        ],
+        "/Webpack/": [
+            "",
+            "Preface/Preface.html",
+            {
+                title: "目录",
+                collapsable: true,
+                children: []
+            }
         ]
     },
     // sidebar: [

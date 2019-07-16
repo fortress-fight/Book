@@ -6,6 +6,7 @@
     "scripts": {
         "docs:dev": "vuepress dev docs",
         "docs:build": "vuepress build docs",
+        "publish:develop": "git push origin develop --no-verify",
         "tree": "tree -I '*node_modules*|.git' -a"
     },
     "author": "",

@@ -22,7 +22,7 @@ meta:
 
 # 首页没有侧边栏
 # 生成仅包含当前页面的标题链接的侧边栏，设置为 false 表示禁止
-# sidebar: auto
+sidebar: false
 
 # 根据激活页面的侧边栏顺序自动推断上一个和下一个链接。你也可以使用 YAML front matter 来显式覆盖或禁用它们：
 # prev: ./some-other-page

@@ -5,7 +5,7 @@
                 v-for="(item, index) in links"
                 class="nav-link"
                 :to="item.link"
-            >{{ item.text }}</router-link>
+            >{{ index+1 + '.' + item.text }}</router-link>
             <!-- <NavLink v-for="(index, item) in links" :key="index" :item="item"></NavLink> -->
         </div>
     </div>
@@ -20,3 +20,11 @@ export default {
     }
 };
 </script>
+<style lang="scss">
+.links_nav-box {
+    margin-right: -4%;
+    .nav-link {
+        margin-right: 4%;
+    }
+}
+</style>

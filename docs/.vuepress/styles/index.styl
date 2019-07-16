@@ -24,7 +24,15 @@
  * 全局默认样式
  */
 .content__default {
-	min-height: calc(100vh - 265px);
+	min-height: calc(100vh - 7.2em - 190px);
+}
+
+.opacity {
+	opacity: 0;
+}
+
+.hide {
+	display: none;
 }
 
 h2 {
@@ -39,10 +47,40 @@ h2 {
 
 // 书籍的首页
 .c-book_index_page {
+	.theme-default-content:not(.custom) {
+		padding: 0 2.5rem 3.6rem 2.5rem;
+		margin-top: 3.6rem;
+	}
+
+	&.c-page_banner {
+		.content__default {
+			display: block;
+			position: relative;
+
+			.banner {
+				width: 100vw;
+				margin: 0;
+				position: relative;
+				top: 0;
+				background-position: center;
+				left: calc(50% - 50vw);
+				background-size: 100%;
+
+				img {
+					width: 100%;
+				}
+			}
+		}
+	}
+
 	.content__default {
 		display: flex;
 		justify-content: center;
 		align-content: center;
 		flex-direction: column;
+	}
+
+	.banner {
+		margin: 0;
 	}
 }

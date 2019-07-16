@@ -5,7 +5,7 @@
 # navbar: false
 
 # 当前页面标签，默认为当前页面的 H1
-# title: VuePress
+title: "前言"
 
 # 语言
 lang: zh-CN
@@ -13,9 +13,9 @@ lang: zh-CN
 # meta
 meta:
     - name: description
-      content: 记录学习中的点点滴滴
+      content: "webpack"
     - name: keywords
-      content: 笔记，重构
+      content: 笔记，自动化，webpack
 
 # 最大值为2，用于覆盖 config.js 中的 sidebarDepth
 # sidebarDepth: 2
@@ -32,18 +32,22 @@ meta:
 # editLink: false
 
 # 自定义页面的 Class
-pageClass: c-index_page
+pageClass: c-book_post-page
 
 # 自定义页面布局
 # 下面将会使用 .vuepress/components/SpecialLayout.vue。为当前页面渲染
-# layout: Home
+# layout: Layout
 
-home: true
-heroImage: /face.jpg
-actionText: 目录 →
-actionLink: /
+# home: true
 footer: Copyright © 2018-present
 ---
 
-<sitebg bg="/face.jpg"/>
-<popbox popbox_switch=".home .hero .action-button" :links="[{text: '重构 改善既有代码的设计', link: '/Refactoring/'}, {text: 'Webpack 现代化打包工具', link: '/Webpack/'}]"> </popbox>
+# 前言
+
+---
+
+::: tip Webpack
+
+本质上，webpack 是一个现代 JavaScript 应用程序的**静态模块打包工具**。当 webpack 处理应用程序时，它会在内部构建一个 依赖图(dependency graph)，此依赖图会映射项目所需的每个模块，并生成一个或多个 bundle。
+
+:::
