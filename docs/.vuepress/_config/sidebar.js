@@ -25,7 +25,7 @@ module.exports = {
             {
                 title: "目录",
                 collapsable: true,
-                children: []
+                children: ["Concepts/Concepts.html"]
             }
         ]
     },
